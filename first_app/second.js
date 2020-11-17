@@ -13,6 +13,11 @@ class Person{
     }
 }
 
+function say_hello() {
+    console.log("Hello!");
+}
+
 module.exports = {
-    Person : Person
+    Person : Person,
+    say_hello : say_hello,
 }
