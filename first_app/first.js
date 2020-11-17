@@ -9,3 +9,5 @@ let age = person.age;
 console.log(name, age);
 
 say_hello();
+
+person.count_from_one_to_ten();
