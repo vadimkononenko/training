@@ -1,13 +1,15 @@
-let say_hello = require('./second').say_hello;
-let Person = require('./second').Person;
+'use strict';
 
-let person = new Person('Vadim', 19);
+const sayHello = require('./second').sayHello;
+const Person = require('./second').Person;
 
-let name = person.name;
-let age = person.age;
+const person = new Person('Vadim', 19);
+
+const name = person.name;
+const age = person.age;
+
+sayHello();
 
 console.log(name, age);
 
-say_hello();
-
-person.count_from_one_to_ten();
+person.countFromOneToTen();
